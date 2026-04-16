@@ -141,3 +141,5 @@ Canais comerciais oficiais devem ser vinculados aqui antes da divulgacao ampla d
 - Fiverr: `adicionar perfil oficial`
 - 99Freelas: `adicionar perfil oficial`
 - E-mail comercial: `adicionar canal oficial`
+
+## Portifolio https://nexus7-devstudio.github.io/nexus7-portifolio/
