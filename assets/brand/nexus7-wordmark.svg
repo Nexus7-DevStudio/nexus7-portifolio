@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="250" viewBox="0 0 920 250" fill="none">
+  <defs>
+    <linearGradient id="symbol" x1="34" y1="30" x2="206" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F1D74" />
+      <stop offset="0.55" stop-color="#195ECC" />
+      <stop offset="1" stop-color="#27D8FF" />
+    </linearGradient>
+    <linearGradient id="trail" x1="12" y1="198" x2="210" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#27D8FF" />
+      <stop offset="1" stop-color="#FFFFFF" />
+    </linearGradient>
+    <linearGradient id="word" x1="290" y1="66" x2="802" y2="154" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15389B" />
+      <stop offset="0.52" stop-color="#1D7DEA" />
+      <stop offset="1" stop-color="#27D8FF" />
+    </linearGradient>
+  </defs>
+  <rect width="920" height="250" rx="28" fill="white" fill-opacity="0" />
+  <g transform="translate(8 22)">
+    <path
+      d="M20 171.8V73.6C20 60.04 31.04 49 44.6 49H68.58L105.1 88.8L119.66 49H159.58L110.94 171.8H80.34V98.46L49.98 171.8H20Z"
+      fill="#FFFFFF"
+      fill-opacity="0.98"
+    />
+    <path
+      d="M44.06 171.8V72.48H56.92L102.34 122.16L120.86 72.48H149.78L110.3 171.8H87.24V108.72L56.5 171.8H44.06Z"
+      fill="url(#symbol)"
+    />
+    <path
+      d="M0 186.3L59.2 165.52L160.4 62.72C165.64 57.4 174.28 57.32 179.6 62.56C184.92 67.8 185 76.44 179.76 81.76L78.68 184.42L0 186.3Z"
+      fill="url(#trail)"
+    />
+    <circle cx="177.56" cy="64.4" r="15.56" fill="#FFFFFF" />
+    <circle cx="177.56" cy="64.4" r="8.64" fill="#27D8FF" />
+  </g>
+  <text
+    x="250"
+    y="129"
+    fill="url(#word)"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="102"
+    font-weight="700"
+    letter-spacing="-0.035em"
+  >
+    NEXUS7
+  </text>
+  <text
+    x="255"
+    y="192"
+    fill="#46557D"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="54"
+    font-weight="500"
+    letter-spacing="0.24em"
+  >
+    DEV STUDIO
+  </text>
+</svg>

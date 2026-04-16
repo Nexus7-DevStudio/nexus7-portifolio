@@ -2,50 +2,50 @@ export const siteData = {
   services: [
     {
       index: "01",
-      title: "Landing pages e websites orientados a conversao",
-      audience: "Captacao digital",
+      title: "Landing pages e websites orientados à conversão",
+      audience: "Captação digital",
       summary:
-        "Para negocios que precisam organizar a oferta, melhorar a presenca digital e gerar contato sem depender de estrutura pesada.",
+        "Para negócios que precisam organizar a oferta, fortalecer a presença digital e gerar contato sem depender de estrutura pesada.",
       deliverables: [
-        "Arquitetura de pagina com CTA claro e fluxo de contato objetivo.",
-        "Implementacao responsiva e pronta para analytics, formulario ou WhatsApp.",
-        "Base enxuta para publicar rapido e evoluir sem refazer do zero.",
+        "Arquitetura de página com CTA claro e fluxo de contato objetivo.",
+        "Implementação responsiva e pronta para analytics, formulário ou WhatsApp.",
+        "Base enxuta para publicar rápido e evoluir sem refazer do zero.",
       ],
     },
     {
       index: "02",
-      title: "Sistemas web, paineis e ferramentas internas",
-      audience: "Operacao interna",
+      title: "Sistemas web, painéis e ferramentas internas",
+      audience: "Operação interna",
       summary:
-        "Para equipes que precisam sair da planilha, organizar regras de negocio e centralizar processos em software sob medida.",
+        "Para equipes que precisam sair da planilha, organizar regras de negócio e centralizar processos em software sob medida.",
       deliverables: [
-        "Modelagem de dominio e organizacao de fluxos internos.",
-        "CRUDs, dashboards e estrutura pronta para manutencao.",
-        "Repositorio coerente para crescimento gradual da aplicacao.",
+        "Modelagem de domínio e organização de fluxos internos.",
+        "CRUDs, dashboards e estrutura pronta para manutenção.",
+        "Repositório coerente para crescimento gradual da aplicação.",
       ],
     },
     {
       index: "03",
-      title: "APIs, integracoes e automacoes",
-      audience: "Conexao entre sistemas",
+      title: "APIs, integrações e automações",
+      audience: "Conexão entre sistemas",
       summary:
-        "Para conectar formularios, operacao, sistemas internos e servicos de terceiros com menos retrabalho e mais controle.",
+        "Para conectar formulários, operação, sistemas internos e serviços de terceiros com menos retrabalho e mais controle.",
       deliverables: [
-        "APIs com regras claras e estrutura para integracoes futuras.",
-        "Automacoes de fluxo operacional e endpoints sob medida.",
-        "Base preparada para evolucao sem acoplamento desnecessario.",
+        "APIs com regras claras e estrutura para integrações futuras.",
+        "Automações de fluxo operacional e endpoints sob medida.",
+        "Base preparada para evolução sem acoplamento desnecessário.",
       ],
     },
     {
       index: "04",
-      title: "Reestruturacao tecnica e sustentacao",
+      title: "Reestruturação técnica e sustentação",
       audience: "Bases existentes",
       summary:
-        "Para repositorios, projetos ou frentes digitais que ja existem, mas precisam de mais clareza tecnica e apresentacao profissional.",
+        "Para repositórios, projetos ou frentes digitais que já existem, mas precisam de mais clareza técnica e apresentação profissional.",
       deliverables: [
-        "Diagnostico tecnico e reorganizacao de repositorio.",
-        "Padronizacao de documentacao, servicos e estudos de caso.",
-        "Melhoria de percepcao de valor para cliente, parceiro ou recrutador.",
+        "Diagnóstico técnico e reorganização de repositório.",
+        "Padronização de documentação, serviços e estudos de caso.",
+        "Melhoria de percepção de valor para cliente, parceiro ou recrutador.",
       ],
     },
   ],
@@ -53,71 +53,71 @@ export const siteData = {
     {
       title: "Contato direto na entrega",
       description:
-        "O cliente fala com quem analisa escopo, toma decisao tecnica e escreve codigo. Isso reduz ruido e acelera alinhamento.",
+        "O cliente fala com quem analisa escopo, toma decisão técnica e escreve código. Isso reduz ruído e acelera alinhamento.",
     },
     {
       title: "Arquitetura proporcional ao problema",
       description:
-        "A Nexus7 evita stack exibicionista e escolhe a base tecnica que faz sentido para o contexto, o prazo e a manutencao.",
+        "A Nexus7 evita stack exibicionista e escolhe a base técnica que faz sentido para o contexto, o prazo e a manutenção.",
     },
     {
-      title: "Documentacao minima util",
+      title: "Documentação mínima útil",
       description:
-        "Em vez de acumular texto que nao ajuda, a equipe registra o necessario para manter clareza, continuidade e controle de evolucao.",
+        "Em vez de acumular texto que não ajuda, a equipe registra o necessário para manter clareza, continuidade e controle de evolução.",
     },
     {
       title: "Entrega por fase",
       description:
-        "Projetos ficam mais seguros quando o escopo e quebrado em blocos entendiveis, com prioridade e criterio de aceite claros.",
+        "Projetos ficam mais seguros quando o escopo é quebrado em blocos entendíveis, com prioridade e critério de aceite claros.",
     },
     {
-      title: "Repositorio como ativo comercial",
+      title: "Repositório como ativo comercial",
       description:
-        "A base publica tambem precisa convencer. Estrutura, README, projetos e cases precisam demonstrar criterio, nao improviso.",
+        "A base pública também precisa convencer. Estrutura, README, projetos e cases precisam demonstrar critério, não improviso.",
     },
     {
       title: "Sem prova social artificial",
       description:
-        "Nada de depoimento inventado ou numero sem contexto. A confianca vem de clareza, de trabalho real e de narrativa honesta.",
+        "Nada de depoimento inventado ou número sem contexto. A confiança vem de clareza, de trabalho real e de narrativa honesta.",
     },
   ],
   process: [
     {
       step: "ETAPA 01",
-      title: "Diagnostico",
+      title: "Diagnóstico",
       description:
-        "Leitura do contexto, do objetivo de negocio, das restricoes e do nivel de maturidade da base atual.",
+        "Leitura do contexto, do objetivo de negócio, das restrições e do nível de maturidade da base atual.",
     },
     {
       step: "ETAPA 02",
       title: "Arquitetura e escopo",
       description:
-        "Definicao do que entra na fase atual, da stack adequada e de como a entrega sera organizada sem inflar o projeto.",
+        "Definição do que entra na fase atual, da stack adequada e de como a entrega será organizada sem inflar o projeto.",
     },
     {
       step: "ETAPA 03",
-      title: "Implementacao",
+      title: "Implementação",
       description:
-        "Construcao da interface, da logica e da estrutura do repositorio com foco em manutencao e clareza tecnica.",
+        "Construção da interface, da lógica e da estrutura do repositório com foco em manutenção e clareza técnica.",
     },
     {
       step: "ETAPA 04",
-      title: "Publicacao e evolucao",
+      title: "Publicação e evolução",
       description:
-        "Validacao final, documentacao minima e base preparada para sustentacao, novas fases ou integracoes futuras.",
+        "Validação final, documentação mínima e base preparada para sustentação, novas fases ou integrações futuras.",
     },
   ],
   projects: [
     {
-      title: "Centro de Estetica Katia Tiso",
-      status: "PUBLICO",
+      title: "Centro de Estética Katia Tiso",
+      status: "PÚBLICO",
       description:
-        "Landing page mobile-first pensada para captar leads com baixa friccao, CTA recorrente e base facil de publicar e evoluir.",
+        "Landing page mobile-first pensada para captar leads com baixa fricção, CTA recorrente e base fácil de publicar e evoluir.",
       stack: ["HTML", "CSS", "JavaScript modular"],
       highlights: [
-        "Separacao clara entre conteudo, configuracao e renderizacao.",
-        "Estrutura pronta para formulario, UTM e fluxo de WhatsApp.",
-        "Arquitetura simples, rapida e barata de sustentar.",
+        "Separação clara entre conteúdo, configuração e renderização.",
+        "Estrutura pronta para formulário, UTM e fluxo de WhatsApp.",
+        "Arquitetura simples, rápida e barata de sustentar.",
       ],
       links: [
         {
@@ -125,11 +125,11 @@ export const siteData = {
           href: "projects/centro-de-estetica-katia-tiso.md",
         },
         {
-          label: "Case study",
+          label: "Estudo de caso",
           href: "case-studies/centro-de-estetica-katia-tiso.md",
         },
         {
-          label: "Repositorio publico",
+          label: "Repositório público",
           href: "https://github.com/CristianoRFB/landing-page-clinica-estetica",
           external: true,
         },
@@ -137,14 +137,14 @@ export const siteData = {
     },
     {
       title: "Lan House Manager",
-      status: "PUBLICO",
+      status: "PÚBLICO",
       description:
-        "Base de sistema cliente-servidor para operacao com regras por perfil, fila offline e caminho de evolucao para painel administrativo.",
-      stack: ["Python", "FastAPI", "SQLite", "Tests"],
+        "Base de sistema cliente-servidor para operação com regras por perfil, fila offline e caminho de evolução para painel administrativo.",
+      stack: ["Python", "FastAPI", "SQLite", "Testes"],
       highlights: [
-        "Modelagem de dominio para usuarios, maquinas, sessoes e comandos.",
-        "Pensamento de sistema em cenario com conectividade imperfeita.",
-        "Base desenhada para crescer sem refazer a fundacao.",
+        "Modelagem de domínio para usuários, máquinas, sessões e comandos.",
+        "Pensamento de sistema em cenário com conectividade imperfeita.",
+        "Base desenhada para crescer sem refazer a fundação.",
       ],
       links: [
         {
@@ -152,11 +152,11 @@ export const siteData = {
           href: "projects/lan-house-manager.md",
         },
         {
-          label: "Case study",
+          label: "Estudo de caso",
           href: "case-studies/lan-house-manager.md",
         },
         {
-          label: "Repositorio publico",
+          label: "Repositório público",
           href: "https://github.com/CristianoRFB/Lan-House",
           external: true,
         },
@@ -166,68 +166,75 @@ export const siteData = {
   repositoryAreas: [
     {
       title: "README.md",
-      description: "Apresenta a empresa, a proposta de valor e a leitura inicial do repositorio.",
+      description: "Apresenta a empresa, a proposta de valor e a leitura inicial do repositório.",
     },
     {
       title: "docs/",
-      description: "Centraliza posicionamento, diagnostico, arquitetura editorial e melhorias.",
+      description: "Centraliza posicionamento, diagnóstico, arquitetura editorial e melhorias.",
     },
     {
       title: "services/",
-      description: "Explica a oferta da Nexus7 a partir de problema resolvido, nao de buzzword.",
+      description: "Explica a oferta da Nexus7 a partir de problema resolvido, não de buzzword.",
     },
     {
       title: "projects/",
-      description: "Resume projetos publicados com contexto, problema, stack e valor para cliente.",
+      description: "Resume projetos publicados com contexto, problema, stack e valor para o cliente.",
     },
     {
       title: "case-studies/",
-      description: "Aprofunda raciocinio tecnico e contexto de entrega sem inventar prova social.",
+      description: "Aprofunda raciocínio técnico e contexto de entrega sem inventar prova social.",
     },
     {
       title: "styles/ e scripts/",
-      description: "Mantem a vitrine viva do estudio em codigo simples, legivel e facil de evoluir.",
+      description: "Mantêm a vitrine viva do estúdio em código simples, legível e fácil de evoluir.",
     },
   ],
   faq: [
     {
-      question: "A Nexus7 e uma software house grande?",
+      question: "A Nexus7 é uma software house grande?",
       answer:
-        "Nao. A proposta e ser um estudio boutique: menos camadas, mais contato direto com quem entende o escopo e implementa a entrega. Isso aumenta clareza e reduz repasse de informacao.",
+        "Não. A proposta é ser um estúdio boutique: menos camadas, mais contato direto com quem entende o escopo e implementa a entrega. Isso aumenta clareza e reduz repasse de informação.",
     },
     {
       question: "Que tipo de projeto faz mais sentido contratar com a Nexus7?",
       answer:
-        "Projetos web, landing pages, sistemas internos, integracoes, automacoes e reestruturacao tecnica. A equipe funciona melhor quando o desafio pede organizacao, criterio e base pronta para crescer.",
+        "Projetos web, landing pages, sistemas internos, integrações, automações e reestruturação técnica. A equipe funciona melhor quando o desafio pede organização, critério e base pronta para crescer.",
     },
     {
-      question: "Por que este repositorio e importante na percepcao do cliente?",
+      question: "Como a Nexus7 organiza o trabalho do início à entrega?",
       answer:
-        "Porque ele nao deveria parecer um deposito de arquivos. Um bom repositorio mostra como a empresa pensa, organiza e documenta. Isso comunica maturidade antes mesmo da primeira conversa comercial.",
+        "O trabalho é organizado em fases claras: diagnóstico, arquitetura, implementação e publicação. Isso ajuda a alinhar expectativa, escopo e prioridade desde o começo.",
     },
     {
-      question: "O que a Nexus7 evita repetir em relacao a referencias como a 404 devs?",
+      question: "Qual é o melhor canal para entrar em contato?",
       answer:
-        "Evita concentrar tudo em impacto visual, evita depoimento ficticio, evita posicionamento amplo demais e evita deixar a parte documental e estrutural fraca. A ideia e parecer mais solida, mais clara e mais confiavel.",
+        "Para conversa rápida, o WhatsApp é o canal mais direto. Para briefing, referências ou detalhes formais, o e-mail funciona muito bem. Se preferir contratar pela plataforma, o perfil do 99Freelas também está disponível.",
     },
   ],
   contactChannels: [
     {
-      label: "GitHub",
-      value: "https://github.com/Nexus7-DevStudio",
-      href: "https://github.com/Nexus7-DevStudio",
+      label: "WhatsApp",
+      value: "+55 17 99751-0663",
+      href: "https://wa.me/5517997510663",
+      note: "Canal mais rápido para alinhar escopo, prazo e proposta.",
     },
     {
-      label: "Fiverr",
-      value: "Adicionar perfil oficial",
+      label: "E-mail",
+      value: "nexus7devstudio@gmail.com",
+      href: "mailto:nexus7devstudio@gmail.com",
+      note: "Ideal para enviar briefing, referências e detalhes do projeto.",
     },
     {
       label: "99Freelas",
-      value: "Adicionar perfil oficial",
+      value: "Perfil Nexus7 Dev Studio",
+      href: "https://www.99freelas.com.br/user/nexus7-dev-studio",
+      note: "Canal profissional para contratação e negociação pela plataforma.",
     },
     {
-      label: "Email comercial",
-      value: "Adicionar canal oficial",
+      label: "GitHub",
+      value: "github.com/Nexus7-DevStudio",
+      href: "https://github.com/Nexus7-DevStudio",
+      note: "Portfólio técnico e base pública do estúdio.",
     },
   ],
 };

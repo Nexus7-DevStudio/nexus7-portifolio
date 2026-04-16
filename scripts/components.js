@@ -135,9 +135,12 @@ export function renderContactChannels(channels) {
           <strong>${channel.label}</strong>
           ${
             channel.href
-              ? `<a href="${channel.href}" target="_blank" rel="noreferrer">${channel.value}</a>`
+              ? `<a href="${channel.href}" ${
+                  channel.href.startsWith("mailto:") ? "" : externalRel
+                }>${channel.value}</a>`
               : `<span>${channel.value}</span>`
           }
+          ${channel.note ? `<p class="contact-line__note">${channel.note}</p>` : ""}
         </div>
       `
     )
