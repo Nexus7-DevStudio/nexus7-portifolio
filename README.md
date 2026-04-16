@@ -8,6 +8,21 @@ A Nexus7 Dev Studio organiza, projeta e implementa produtos digitais com foco em
 
 Este repositorio e a base publica da Nexus7. Aqui concentramos posicionamento, servicos, projetos publicados e estudos de caso para que um cliente entenda rapidamente como pensamos, como executamos e onde geramos valor.
 
+Agora a base tambem inclui a vitrine principal em codigo, pronta para servir como landing institucional do estudio.
+
+## Vitrine em codigo
+
+Arquivos principais da vitrine:
+
+- `index.html`
+- `styles/main.css`
+- `scripts/site-data.js`
+- `scripts/components.js`
+- `scripts/main.js`
+- `serve.ps1`
+
+Essa camada transforma o repositorio em uma peca de apresentacao real, e nao apenas em documentacao textual.
+
 ## O que um cliente encontra aqui
 
 - Posicionamento e proposta de valor da Nexus7.
@@ -68,12 +83,16 @@ Base de sistema cliente/servidor com operacao offline, regras de negocio por per
 
 ```text
 .
+|-- index.html
+|-- serve.ps1
 |-- assets/
 |   `-- brand/
 |-- case-studies/
 |-- docs/
 |-- projects/
-`-- services/
+|-- scripts/
+|-- services/
+`-- styles/
 ```
 
 - `docs/`: diagnostico, posicionamento, arquitetura editorial e melhorias.
@@ -81,6 +100,28 @@ Base de sistema cliente/servidor com operacao offline, regras de negocio por per
 - `projects/`: resumos executivos dos projetos publicados.
 - `case-studies/`: versoes mais completas, com problema, solucao e decisoes tecnicas.
 - `assets/`: identidade visual e elementos reutilizaveis do repositorio.
+- `scripts/`: dados e componentes da vitrine publica.
+- `styles/`: linguagem visual e sistema de layout da landing.
+
+## Como rodar localmente
+
+Como a vitrine usa modulos ES no navegador, o ideal e servir a raiz do repositorio por um servidor local.
+
+### Opcao 1
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\serve.ps1
+```
+
+### Opcao 2
+
+```powershell
+py -m http.server 5500
+```
+
+Depois, abra:
+
+- [http://localhost:5500](http://localhost:5500)
 
 ## O que nao vamos fazer para parecer profissionais
 
