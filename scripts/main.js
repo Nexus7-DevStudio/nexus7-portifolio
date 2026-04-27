@@ -1,14 +1,3 @@
-import { siteData } from "./site-data.js";
-import {
-  renderContactChannels,
-  renderFaq,
-  renderPrinciples,
-  renderProcess,
-  renderProjects,
-  renderRepositoryAreas,
-  renderServices,
-} from "./components.js";
-
 const mount = (selector, markup) => {
   const element = document.querySelector(selector);
   if (!element) return;
@@ -76,4 +65,55 @@ if ("IntersectionObserver" in window) {
   revealElements.forEach((element) => observer.observe(element));
 } else {
   revealElements.forEach((element) => element.classList.add("is-visible"));
+}
+
+const themeToggle = document.querySelector(".theme-toggle");
+const themeMetaTags = Array.from(document.querySelectorAll('meta[name="theme-color"]'));
+const systemThemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+const getStoredTheme = () => {
+  try {
+    const storedTheme = localStorage.getItem("theme");
+    return storedTheme === "dark" || storedTheme === "light" ? storedTheme : null;
+  } catch (error) {
+    return null;
+  }
+};
+
+const getResolvedTheme = () => getStoredTheme() || (systemThemeQuery.matches ? "dark" : "light");
+
+const updateThemeMeta = (theme) => {
+  themeMetaTags.forEach((tag) => {
+    tag.setAttribute("content", theme === "dark" ? "#071229" : "#1643b8");
+  });
+};
+
+const syncThemeToggle = () => {
+  const theme = getResolvedTheme();
+  if (!themeToggle) return;
+  const isDark = theme === "dark";
+  themeToggle.setAttribute("aria-pressed", String(isDark));
+  themeToggle.setAttribute("aria-label", isDark ? "Ativar modo claro" : "Ativar modo escuro");
+  const label = themeToggle.querySelector(".theme-toggle__text");
+  if (label) label.textContent = isDark ? "Claro" : "Escuro";
+  updateThemeMeta(theme);
+};
+
+if (themeToggle) {
+  syncThemeToggle();
+
+  themeToggle.addEventListener("click", () => {
+    const nextTheme = getResolvedTheme() === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = nextTheme;
+    try {
+      localStorage.setItem("theme", nextTheme);
+    } catch (error) {
+      // Tema ainda muda na sessão mesmo sem persistência disponível.
+    }
+    syncThemeToggle();
+  });
+
+  systemThemeQuery.addEventListener("change", () => {
+    if (!getStoredTheme()) syncThemeToggle();
+  });
 }
