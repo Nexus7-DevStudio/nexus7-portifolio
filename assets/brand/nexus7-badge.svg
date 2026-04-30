@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 146) rotate(35.4) scale(512 392)">
+      <stop offset="0" stop-color="#15389B" />
+      <stop offset="0.54" stop-color="#1E7DE7" />
+      <stop offset="1" stop-color="#BEEBFF" />
+    </radialGradient>
+    <linearGradient id="wave" x1="98" y1="430" x2="556" y2="336" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#EAF8FF" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="symbol" x1="80" y1="138" x2="220" y2="322" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F1D74" />
+      <stop offset="0.56" stop-color="#195ECC" />
+      <stop offset="1" stop-color="#27D8FF" />
+    </linearGradient>
+    <linearGradient id="trail" x1="34" y1="340" x2="214" y2="212" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#27D8FF" />
+      <stop offset="1" stop-color="#FFFFFF" />
+    </linearGradient>
+    <linearGradient id="word" x1="266" y1="212" x2="556" y2="272" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15389B" />
+      <stop offset="0.55" stop-color="#1E7DE7" />
+      <stop offset="1" stop-color="#27D8FF" />
+    </linearGradient>
+  </defs>
+  <circle cx="320" cy="320" r="290" fill="url(#bg)" />
+  <path
+    d="M28 366C118 322 212 302 316 302C422 302 522 326 612 382V526C532 488 430 466 318 466C210 466 112 486 38 520L28 366Z"
+    fill="url(#wave)"
+    fill-opacity="0.96"
+  />
+  <path
+    d="M72 388L136 366L246 254C251.74 248.16 261.2 248.08 267.04 253.82C272.88 259.56 272.96 269.02 267.22 274.86L157.18 386.58L72 388Z"
+    fill="url(#trail)"
+  />
+  <path
+    d="M82 384V182.8C82 167.45 94.45 155 109.8 155H136.95L178.3 200.1L194.78 155H239.96L184.9 294H150.28V210.98L115.9 294H82V384Z"
+    fill="#FFFFFF"
+    fill-opacity="0.96"
+  />
+  <path
+    d="M109.2 384V181.4H123.76L175.18 237.68L196.14 181.4H228.88L184.18 294H158.08V222.52L123.28 294H109.2V384Z"
+    fill="url(#symbol)"
+  />
+  <circle cx="264.8" cy="160.4" r="17.8" fill="#FFFFFF" />
+  <circle cx="264.8" cy="160.4" r="9.6" fill="#27D8FF" />
+  <text
+    x="270"
+    y="300"
+    fill="url(#word)"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="84"
+    font-weight="700"
+    letter-spacing="-0.04em"
+  >
+    NEXUS7
+  </text>
+  <text
+    x="272"
+    y="356"
+    fill="#4A587A"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="38"
+    font-weight="500"
+    letter-spacing="0.24em"
+  >
+    DEV STUDIO
+  </text>
+</svg>
