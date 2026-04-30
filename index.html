@@ -15,7 +15,8 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/brand/nexus7-badge.svg" />
-    <meta name="theme-color" content="#1643b8" />
+    <meta name="theme-color" content="#1643b8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#071229" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="assets/brand/nexus7-badge.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,6 +26,14 @@
     />
     <script>
       document.documentElement.classList.add("js");
+      try {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark" || savedTheme === "light") {
+          document.documentElement.dataset.theme = savedTheme;
+        }
+      } catch (error) {
+        document.documentElement.removeAttribute("data-theme");
+      }
     </script>
     <link rel="stylesheet" href="styles/main.css" />
   </head>
@@ -58,6 +67,16 @@
             <a href="#repositorio">Repositório</a>
             <a href="#contato">Contato</a>
           </nav>
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Ativar modo escuro"
+            aria-pressed="false"
+          >
+            <span class="theme-toggle__icon" aria-hidden="true"></span>
+            <span class="theme-toggle__text">Tema</span>
+          </button>
+
 
           <a
             class="button button-primary header-cta"
@@ -335,6 +354,8 @@
       </footer>
     </div>
 
-    <script type="module" src="scripts/main.js"></script>
+    <script src="scripts/site-data.js"></script>
+    <script src="scripts/components.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

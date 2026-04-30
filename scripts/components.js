@@ -5,7 +5,7 @@ function revealAttributes(index) {
   return `data-reveal="up" style="--delay:${delay}ms"`;
 }
 
-export function renderServices(services) {
+function renderServices(services) {
   return services
     .map(
       (service, index) => `
@@ -25,7 +25,7 @@ export function renderServices(services) {
     .join("");
 }
 
-export function renderPrinciples(principles) {
+function renderPrinciples(principles) {
   return principles
     .map(
       (principle, index) => `
@@ -39,7 +39,7 @@ export function renderPrinciples(principles) {
     .join("");
 }
 
-export function renderProcess(processItems) {
+function renderProcess(processItems) {
   return processItems
     .map(
       (item, index) => `
@@ -53,7 +53,7 @@ export function renderProcess(processItems) {
     .join("");
 }
 
-export function renderProjects(projects) {
+function renderProjects(projects) {
   return projects
     .map(
       (project, index) => `
@@ -95,7 +95,7 @@ export function renderProjects(projects) {
     .join("");
 }
 
-export function renderRepositoryAreas(areas) {
+function renderRepositoryAreas(areas) {
   return `
     <ul>
       ${areas
@@ -112,7 +112,7 @@ export function renderRepositoryAreas(areas) {
   `;
 }
 
-export function renderFaq(items) {
+function renderFaq(items) {
   return items
     .map(
       (item, index) => `
@@ -127,7 +127,7 @@ export function renderFaq(items) {
     .join("");
 }
 
-export function renderContactChannels(channels) {
+function renderContactChannels(channels) {
   return channels
     .map(
       (channel) => `

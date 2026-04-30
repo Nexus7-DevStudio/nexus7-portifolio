@@ -1,4 +1,4 @@
-export const siteData = {
+const siteData = {
   services: [
     {
       index: "01",
